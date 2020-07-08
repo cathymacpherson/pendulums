@@ -1,0 +1,31 @@
+ppid,ppt,met,observed,coord
+P01_A_NoMet_Solo_1,A (solo),No,No,N/A (solo trial)
+P01_A_NoMet_Solo_2,A (solo),No,No,N/A (solo trial)
+P01_A_Met_Solo_1,A (solo),Yes,No,N/A (solo trial)
+P01_A_Met_Solo_2,A (solo),Yes,No,N/A (solo trial)
+P01_A_NoMet_Observed_1,A (solo),No,Yes,N/A (solo trial)
+P01_A_NoMet_Observed_2,A (solo),No,Yes,N/A (solo trial)
+P01_A_Met_Observed_1,A (solo),Yes,Yes,N/A (solo trial)
+P01_A_Met_Observed_2,A (solo),Yes,Yes,N/A (solo trial)
+P01_B_NoMet_Solo_1,B (solo),No,No,N/A (solo trial)
+P01_B_NoMet_Solo_2,B (solo),No,No,N/A (solo trial)
+P01_B_Met_Solo_1,B (solo),Yes,No,N/A (solo trial)
+P01_B_Met_Solo_2,B (solo),Yes,No,N/A (solo trial)
+P01_B_NoMet_Observed_1,B (solo),No,Yes,N/A (solo trial)
+P01_B_NoMet_Observed_2,B (solo),No,Yes,N/A (solo trial)
+P01_B_Met_Observed_1,B (solo),Yes,Yes,N/A (solo trial)
+P01_B_Met_Observed_2,B (solo),Yes,Yes,N/A (solo trial)
+P01_AB_Spont_1,AB (joint),N/A (joint trial),N/A (joint trial),Spontaneous
+P01_AB_Spont_2,AB (joint),N/A (joint trial),N/A (joint trial),Spontaneous
+P01_AB_Int_1,AB (joint),N/A (joint trial),N/A (joint trial),Intentional
+P01_AB_Int_2,AB (joint),N/A (joint trial),N/A (joint trial),Intentional
+P_200703150153,,,,
+P_200703150251,,,,
+P_200703151136,,,,
+P_200703151224,,,,
+P_200703152830,,,,
+P_200703153115,,,,
+P_200703154945,,,,
+P_200703155552,,,,
+P_200703174430,,,,
+P_200703180635,,,,
