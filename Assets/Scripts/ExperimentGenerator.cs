@@ -13,75 +13,89 @@ using UXF;
 
 public class ExperimentGenerator : MonoBehaviour
 {
+    Quaternion _start, _end;
+    public GameObject pendulum;
+    private GameObject participantA;
+    private GameObject participantB;
+    private GameObject wholePendulum;
+    private float _angle = 60.0f;
+    private float _startTime = 0.0f;
+    private bool pendType;
+    private float bpm;
 
-    UXF.Session session;
+    public Session session; // generates the trials and blocks for the session
 
-    /// <summary>
-    /// generates the trials and blocks for the session
-    /// </summary>
-    /// <param name="experimentSession"></param>
-    public void GenerateExperiment(Session experimentSession)
+    void Awake()
     {
-        // save reference to session
-        session = experimentSession;
+        _start = PendulumRotation(-_angle);
+        _end = PendulumRotation(_angle);
+        pendulum = GameObject.Find("/Hinge1/Pendulum1/Ball1");
+        wholePendulum = GameObject.Find("/Hinge1");
+        participantA = GameObject.Find("/Knuckle (0)");
+        participantB = GameObject.Find("/Knuckle (1)");
+        wholePendulum.SetActive(false);
+    }
 
-        // retrieve the n_main_trials setting, which was loaded from our .json file into our session settings
+     void GenerateExperiment(Session experimentSession)
+    {
+        session = experimentSession; // save reference to session
         int numTrials = 1; // session.settings.GetInt("n_main_trials");
-
-        // create main block
-        Block mainBlock = session.CreateBlock(numTrials);
-
-    }
-
-  /*  public void StartLoop()
-    {
-        // called from OnSessionBegin, hence starting the trial loop when the session starts
-        StartCoroutine(Loop());
-    }
-
-    IEnumerator Loop()
-    {
-        foreach (Trial trial in session.Trials)
-        {
-            trial.Begin();
-            PresentStimulus(trial);
-            yield return new WaitForSeconds(80f);
-            trial.End();
-        }
-
-        session.End();
-    } */
-
-
-    void PresentStimulus(Trial trial) // here we can imagine presentation of some stimulus
-    {
+        Block mainBlock = session.CreateBlock(numTrials); // create main 
+        pendType = (bool)session.participantDetails["pend_type"];
+        print(pendType);
+        bpm = (pendType) ? 150.0f : 50.0f; //sets bpm to 150 if pendType is T and 50 if pendType is F (pendType is taken from the tick box on the UI)
+        print(bpm);
+        session.FirstTrial.Begin();
         Debug.Log("Running trial!");
+    }
+
+     void setTrialLength(Trial trial) // can be called from OnTrialBegin in the Session inspector
+    {
+        Invoke("EndAndPrepare", 50);
+    }
+
+ 
+    void FixedUpdate()
+    {
+        _startTime += Time.deltaTime;
+        transform.rotation = Quaternion.Lerp(_start, _end, (Mathf.Sin(_startTime * (bpm / 60) + Mathf.PI / 2) + 1.0f) / 2.0f);
+
+        Vector3 pendulumPosition = new Vector3(pendulum.transform.position.x, pendulum.transform.position.y, pendulum.transform.position.z);
+        Vector3 participantPositionA = new Vector3(participantA.transform.position.x, participantA.transform.position.y, participantA.transform.position.z);
+        Vector3 participantPositionB = new Vector3(participantB.transform.position.x, participantB.transform.position.y, participantB.transform.position.z);
+        var line = string.Format("{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}",
+                                DateTime.Now,
+                                pendulumPosition[0], pendulumPosition[1], pendulumPosition[2],
+                                participantPositionA[0], participantPositionA[1], participantPositionA[2],
+                                participantPositionB[0], participantPositionB[1], participantPositionB[2]);
+        var fileName = "backup" + ".txt";
+        StreamWriter writer = new StreamWriter(fileName, true);
+        writer.WriteLine(line);
+        {
+            if (writer != null)
+                writer.Close();
+        }
+    }
 
 
-        Invoke("EndAndPrepare", 70);
+    Quaternion PendulumRotation(float angle)
+    {
+        var pendulumRotation = transform.rotation;
+        var angleZ = pendulumRotation.eulerAngles.z + angle;
 
-        //distances and manipulation
-        //add click of button here which moves you to the next trial
+        if (angleZ > 180)
+            angleZ -= 360;
+        else if (angleZ < -180)
+            angleZ += 360;
 
-
-        // we can access our settings to (e.g.) modify our scene
-        // for more information about retrieving settings see the documentation
-
-        //float size = trial.settings.GetFloat("size");
-        //Debug.LogFormat("The 'size' for this trial is: {0}", size);
-
-        // record custom values...
-        // string observation = UnityEngine.Random.value.ToString();
-        // Debug.Log(string.Format("We observed: {0}", observation));
-        // trial.result["some_variable"] = observation;
-
+        pendulumRotation.eulerAngles = new Vector3(pendulumRotation.eulerAngles.x, pendulumRotation.eulerAngles.y, angleZ);
+        return pendulumRotation;
     }
 
     void EndAndPrepare()
     {
         Debug.Log("Ending trial");
         session.CurrentTrial.End();
-
         if (session.CurrentTrial == session.LastTrial)
         {
             session.End();
@@ -90,8 +104,6 @@ public class ExperimentGenerator : MonoBehaviour
         {
             session.BeginNextTrial();
         }
-
     }
-
-
 }
+

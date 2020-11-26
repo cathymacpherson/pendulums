@@ -18,15 +18,15 @@
         public Session session; //reference to the UXF session so we can start the trial
         
         Quaternion _start, _end; 
-        private GameObject pendulum; 
+        public GameObject pendulum; 
         private GameObject participantA; 
         private GameObject participantB; 
         private GameObject wholePendulum;
         private float _angle = 60.0f;
-        private float _speed = 4.5f;
+        private float bpm = 75.0f;
         private float _startTime = 0.0f;
-               
-        public static string GetCodeName(System.Enum e)
+         
+        public static string GetCodeName(System.Enum e) //Is this necessary? Check with polhemus on 
         {
             var nm = e.ToString();
             var tp = e.GetType();
@@ -38,9 +38,8 @@
             else
                 return nm;
         }
-
-        
-        void Awake() //change back to start?
+                
+        void Awake() 
         {
             _start = PendulumRotation(-_angle);
             _end = PendulumRotation(_angle);
@@ -52,21 +51,14 @@
             wholePendulum.SetActive(false);
         }
 
-        IEnumerator Countdown()
-        {
-            yield return new WaitForSeconds(0.3f);
-            wholePendulum.SetActive(true);
-            yield return new WaitForSeconds(0.3f);
-            session.EndCurrentTrial();
-        }
+    
 
-
-        private void FixedUpdate()
+        void FixedUpdate()
         
         {
 
             _startTime += Time.deltaTime;
-            transform.rotation = Quaternion.Lerp(_start, _end, (Mathf.Sin(_startTime * _speed + Mathf.PI / 2) + 1.0f) / 2.0f);
+            transform.rotation = Quaternion.Lerp(_start, _end, (Mathf.Sin(_startTime * (bpm / 60) + Mathf.PI / 2) + 1.0f) / 2.0f);
 
             Vector3 pendulumPosition = new Vector3(pendulum.transform.position.x, pendulum.transform.position.y, pendulum.transform.position.z);
             Vector3 participantPositionA = new Vector3(participantA.transform.position.x, participantA.transform.position.y, participantA.transform.position.z);
