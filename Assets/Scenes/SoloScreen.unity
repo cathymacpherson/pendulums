@@ -821,7 +821,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1445934919}
   - component: {fileID: 1445934920}
-  - component: {fileID: 1445934921}
   m_Layer: 0
   m_Name: Experiment
   m_TagString: Untagged
@@ -855,20 +854,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d778ec9c292f1194a910cb94deb76b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1445934921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445934918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07f43face462c2d468d457dbcb9c5742, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pendulum: {fileID: 0}
-  session: {fileID: 653464542}
 --- !u!114 &1531195659 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5849656268993787400, guid: bbf069c3a23a6dd4a810e06053543194,
@@ -1155,7 +1140,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1445934921}
+      objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName

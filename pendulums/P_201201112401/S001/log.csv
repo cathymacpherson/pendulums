@@ -1,0 +1,537 @@
+timestamp,log_type,message
+0,Log,0
+0,Log,0
+0,Log,0
+0,Log,0
+0,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0,Log,0
+0,Log,0
+0,Log,Loaded: H:\pendulums\P01_participant_list.csv
+0.02,Log,0
+0.02,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.02,Log,0
+0.02,Log,0
+0.04,Log,0
+0.04,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.04,Log,0
+0.04,Log,0
+0.06,Log,0
+0.06,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.06,Log,0
+0.06,Log,0
+0.08,Log,0
+0.08,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.08,Log,0
+0.08,Log,0
+0.09999999,Log,0
+0.09999999,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.09999999,Log,0
+0.09999999,Log,0
+0.12,Log,0
+0.12,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.12,Log,0
+0.12,Log,0
+0.14,Log,0
+0.14,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.14,Log,0
+0.14,Log,0
+0.16,Log,0
+0.16,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.16,Log,0
+0.16,Log,0
+0.18,Log,0
+0.18,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.18,Log,0
+0.18,Log,0
+0.2,Log,0
+0.2,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.2,Log,0
+0.2,Log,0
+0.22,Log,0
+0.22,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.22,Log,0
+0.22,Log,0
+0.24,Log,0
+0.24,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.24,Log,0
+0.24,Log,0
+0.26,Log,0
+0.26,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.26,Log,0
+0.26,Log,0
+0.28,Log,0
+0.28,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.28,Log,0
+0.28,Log,0
+0.3,Log,0
+0.3,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.3,Log,0
+0.3,Log,0
+0.32,Log,0
+0.32,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.32,Log,0
+0.32,Log,0
+0.34,Log,0
+0.34,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.34,Log,0
+0.34,Log,0
+0.36,Log,0
+0.36,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.36,Log,0
+0.36,Log,0
+0.38,Log,0
+0.38,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.38,Log,0
+0.38,Log,0
+0.4,Log,0
+0.4,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.4,Log,0
+0.4,Log,0
+0.42,Log,0
+0.42,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.42,Log,0
+0.42,Log,0
+0.44,Log,0
+0.44,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.44,Log,0
+0.44,Log,0
+0.46,Log,0
+0.46,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.46,Log,0
+0.46,Log,0
+0.48,Log,0
+0.48,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.48,Log,0
+0.48,Log,0
+0.5,Log,0
+0.5,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.5,Log,0
+0.5,Log,0
+0.52,Log,0
+0.52,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.52,Log,0
+0.52,Log,0
+0.54,Log,0
+0.54,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.54,Log,0
+0.54,Log,0
+0.56,Log,0
+0.56,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.56,Log,0
+0.56,Log,0
+0.58,Log,0
+0.58,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.58,Log,0
+0.58,Log,0
+0.6,Log,0
+0.6,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.6,Log,0
+0.6,Log,0
+0.62,Log,0
+0.62,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.62,Log,0
+0.62,Log,0
+0.64,Log,0
+0.64,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.64,Log,0
+0.64,Log,0
+0.66,Log,0
+0.66,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.66,Log,0
+0.66,Log,0
+0.68,Log,0
+0.68,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.68,Log,0
+0.68,Log,0
+0.7,Log,0
+0.7,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.7,Log,0
+0.7,Log,0
+0.72,Log,0
+0.72,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.72,Log,0
+0.72,Log,0
+0.74,Log,0
+0.74,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.74,Log,0
+0.74,Log,0
+0.76,Log,0
+0.76,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.76,Log,0
+0.76,Log,0
+0.78,Log,0
+0.78,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.78,Log,0
+0.78,Log,0
+0.8,Log,0
+0.8,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.8,Log,0
+0.8,Log,0
+0.82,Log,0
+0.82,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.82,Log,0
+0.82,Log,0
+0.84,Log,0
+0.84,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.84,Log,0
+0.84,Log,0
+0.86,Log,0
+0.86,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.86,Log,0
+0.86,Log,0
+0.88,Log,0
+0.88,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.88,Log,0
+0.88,Log,0
+0.9,Log,0
+0.9,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.9,Log,0
+0.9,Log,0
+0.92,Log,0
+0.92,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.92,Log,0
+0.92,Log,0
+0.94,Log,0
+0.94,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.94,Log,0
+0.94,Log,0
+0.96,Log,0
+0.96,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.96,Log,0
+0.96,Log,0
+0.98,Log,0
+0.98,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+0.98,Log,0
+0.98,Log,0
+1,Log,0
+1,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1,Log,0
+1,Log,0
+1.02,Log,0
+1.02,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.02,Log,0
+1.02,Log,0
+1.04,Log,0
+1.04,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.04,Log,0
+1.04,Log,0
+1.06,Log,0
+1.06,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.06,Log,0
+1.06,Log,0
+1.08,Log,0
+1.08,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.08,Log,0
+1.08,Log,0
+1.1,Log,0
+1.1,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.1,Log,0
+1.1,Log,0
+1.12,Log,0
+1.12,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.12,Log,0
+1.12,Log,0
+1.14,Log,0
+1.14,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.14,Log,0
+1.14,Log,0
+1.16,Log,0
+1.16,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.16,Log,0
+1.16,Log,0
+1.18,Log,0
+1.18,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.18,Log,0
+1.18,Log,0
+1.2,Log,0
+1.2,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.2,Log,0
+1.2,Log,0
+1.22,Log,0
+1.22,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.22,Log,0
+1.22,Log,0
+1.22,Log,Updating: H:\pendulums\P01_participant_list.csv
+1.22,Log,True
+1.22,Log,150
+1.22,Log,Running trial!
+1.24,Log,0
+1.24,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.24,Log,0
+1.24,Log,150
+1.26,Log,0
+1.26,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.26,Log,0
+1.26,Log,150
+1.28,Log,0
+1.28,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.28,Log,0
+1.28,Log,150
+1.3,Log,0
+1.3,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.3,Log,0
+1.3,Log,150
+1.32,Log,0
+1.32,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.32,Log,0
+1.32,Log,150
+1.34,Log,0
+1.34,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.34,Log,0
+1.34,Log,150
+1.36,Log,0
+1.36,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.36,Log,0
+1.36,Log,150
+1.38,Log,0
+1.38,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.38,Log,0
+1.38,Log,150
+1.4,Log,0
+1.4,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.4,Log,0
+1.4,Log,150
+1.42,Log,0
+1.42,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.42,Log,0
+1.42,Log,150
+1.44,Log,0
+1.44,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.44,Log,0
+1.44,Log,150
+1.46,Log,0
+1.46,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.46,Log,0
+1.46,Log,150
+1.48,Log,0
+1.48,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.48,Log,0
+1.48,Log,150
+1.5,Log,0
+1.5,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.5,Log,0
+1.5,Log,150
+1.52,Log,0
+1.52,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.52,Log,0
+1.52,Log,150
+1.54,Log,0
+1.54,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.54,Log,0
+1.54,Log,150
+1.56,Log,0
+1.56,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.56,Log,0
+1.56,Log,150
+1.58,Log,0
+1.58,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.58,Log,0
+1.58,Log,150
+1.6,Log,0
+1.6,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.6,Log,0
+1.6,Log,150
+1.62,Log,0
+1.62,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.62,Log,0
+1.62,Log,150
+1.64,Log,0
+1.64,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.64,Log,0
+1.64,Log,150
+1.66,Log,0
+1.66,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.66,Log,0
+1.66,Log,150
+1.68,Log,0
+1.68,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.68,Log,0
+1.68,Log,150
+1.7,Log,0
+1.7,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.7,Log,0
+1.7,Log,150
+1.72,Log,0
+1.72,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.72,Log,0
+1.72,Log,150
+1.74,Log,0
+1.74,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.74,Log,0
+1.74,Log,150
+1.76,Log,0
+1.76,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.76,Log,0
+1.76,Log,150
+1.78,Log,0
+1.78,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.78,Log,0
+1.78,Log,150
+1.8,Log,0
+1.8,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.8,Log,0
+1.8,Log,150
+1.82,Log,0
+1.82,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.82,Log,0
+1.82,Log,150
+1.84,Log,0
+1.84,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.84,Log,0
+1.84,Log,150
+1.86,Log,0
+1.86,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.86,Log,0
+1.86,Log,150
+1.88,Log,0
+1.88,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.88,Log,0
+1.88,Log,150
+1.9,Log,0
+1.9,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.9,Log,0
+1.9,Log,150
+1.92,Log,0
+1.92,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.92,Log,0
+1.92,Log,150
+1.94,Log,0
+1.94,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.94,Log,0
+1.94,Log,150
+1.96,Log,0
+1.96,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.96,Log,0
+1.96,Log,150
+1.98,Log,0
+1.98,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+1.98,Log,0
+1.98,Log,150
+2,Log,0
+2,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2,Log,0
+2,Log,150
+2.02,Log,0
+2.02,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.02,Log,0
+2.02,Log,150
+2.04,Log,0
+2.04,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.04,Log,0
+2.04,Log,150
+2.06,Log,0
+2.06,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.06,Log,0
+2.06,Log,150
+2.08,Log,0
+2.08,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.08,Log,0
+2.08,Log,150
+2.1,Log,0
+2.1,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.1,Log,0
+2.1,Log,150
+2.12,Log,0
+2.12,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.12,Log,0
+2.12,Log,150
+2.14,Log,0
+2.14,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.14,Log,0
+2.14,Log,150
+2.16,Log,0
+2.16,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.16,Log,0
+2.16,Log,150
+2.18,Log,0
+2.18,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.18,Log,0
+2.18,Log,150
+2.2,Log,0
+2.2,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.2,Log,0
+2.2,Log,150
+2.22,Log,0
+2.22,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.22,Log,0
+2.22,Log,150
+2.24,Log,0
+2.24,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.24,Log,0
+2.24,Log,150
+2.26,Log,0
+2.26,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.26,Log,0
+2.26,Log,150
+2.28,Log,0
+2.28,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.28,Log,0
+2.28,Log,150
+2.3,Log,0
+2.3,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.3,Log,0
+2.3,Log,150
+2.32,Log,0
+2.32,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.32,Log,0
+2.32,Log,150
+2.34,Log,0
+2.34,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.34,Log,0
+2.34,Log,150
+2.36,Log,0
+2.36,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.36,Log,0
+2.36,Log,150
+2.38,Log,0
+2.38,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.38,Log,0
+2.38,Log,150
+2.4,Log,0
+2.4,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.4,Log,0
+2.4,Log,150
+2.42,Log,0
+2.42,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.42,Log,0
+2.42,Log,150
+2.44,Log,0
+2.44,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.44,Log,0
+2.44,Log,150
+2.46,Log,0
+2.46,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.46,Log,0
+2.46,Log,150
+2.48,Log,0
+2.48,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.48,Log,0
+2.48,Log,150
+2.5,Log,0
+2.5,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.5,Log,0
+2.5,Log,150
+2.52,Log,0
+2.52,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.52,Log,0
+2.52,Log,150
+2.54,Log,0
+2.54,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.54,Log,0
+2.54,Log,150
+2.56,Log,0
+2.56,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.56,Log,0
+2.56,Log,150
+2.58,Log,0
+2.58,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.58,Log,0
+2.58,Log,150
+2.6,Log,0
+2.6,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.6,Log,0
+2.6,Log,150
+2.62,Log,0
+2.62,Exception,IndexOutOfRangeException: Index was outside the bounds of the array.
+2.62,Log,0
+2.62,Log,150
