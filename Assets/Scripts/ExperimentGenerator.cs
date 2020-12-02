@@ -22,7 +22,8 @@ public class ExperimentGenerator : MonoBehaviour
     private float _startTime = 0.0f;
     private bool pendType;
     private float bpm;
-   
+    private string ppid;
+
     public Session session; // generates the trials and blocks for the session
 
     void Awake()
@@ -34,18 +35,20 @@ public class ExperimentGenerator : MonoBehaviour
         participantA = GameObject.Find("/Knuckle (0)");
         participantB = GameObject.Find("/Knuckle (1)");
         wholePendulum.SetActive(true);
-        print(bpm);
+       // print(bpm);
     }
 
      void GenerateExperiment(Session expSession)
     {
         session = expSession; // save reference to session
-        int numTrials = 1; // session.settings.GetInt("n_main_trials");
-        Block mainBlock = session.CreateBlock(numTrials); // create main 
-        pendType = (bool)session.participantDetails["pend_type"];
+        int numTrials = 1; //set number of trials
+        Block mainBlock = session.CreateBlock(numTrials); // create main block
+        pendType = (bool)session.participantDetails["pend_type"]; //
+        ppid = (string)session.participantDetails["ppid"];
         print(pendType);
+        print(ppid);
         bpm = (pendType) ? 150.0f : 50.0f; //sets bpm to 150 if pendType is T and 50 if pendType is F (pendType is taken from the tick box on the UI)
-        print(bpm);
+       // print(bpm);
         session.FirstTrial.Begin();
         Debug.Log("Running trial!");
     }
@@ -56,13 +59,23 @@ public class ExperimentGenerator : MonoBehaviour
         Invoke("EndAndPrepare", 50);
     }
 
- 
+    //public IEnumerator IncreaseDelay()
+    //{
+       // yield return null;
+       // print(bpm);
+       // yield return new WaitForSeconds(5f);
+       // Debug.Log("stopping coroutine");
+       // yield return new WaitForSeconds(5f);
+       // StopCoroutine(IncreaseDelay());
+    //}
+
     void FixedUpdate()
     {
-         print(bpm);
+        // moves the pendulum:
         _startTime += Time.deltaTime;
         transform.rotation = Quaternion.Lerp(_start, _end, (Mathf.Sin(_startTime * (bpm / 60) + Mathf.PI / 2) + 1.0f) / 2.0f);
 
+        // reads out the position of the pendulum and trackers:
         Vector3 pendulumPosition = new Vector3(pendulum.transform.position.x, pendulum.transform.position.y, pendulum.transform.position.z);
         Vector3 participantPositionA = new Vector3(participantA.transform.position.x, participantA.transform.position.y, participantA.transform.position.z);
         Vector3 participantPositionB = new Vector3(participantB.transform.position.x, participantB.transform.position.y, participantB.transform.position.z);
@@ -71,7 +84,7 @@ public class ExperimentGenerator : MonoBehaviour
                                 pendulumPosition[0], pendulumPosition[1], pendulumPosition[2],
                                 participantPositionA[0], participantPositionA[1], participantPositionA[2],
                                 participantPositionB[0], participantPositionB[1], participantPositionB[2]);
-        var fileName = "backup" + ".txt";
+        var fileName = ppid + ".txt";
         StreamWriter writer = new StreamWriter(fileName, true);
         writer.WriteLine(line);
         {
