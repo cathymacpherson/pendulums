@@ -1,6 +1,6 @@
 ppid,ppt,met,observed,coord,pend_type,detuned
 P02_A_NoMet_Solo_1,A (solo),No,No,N/A (solo trial),False,
-P02_A_NoMet_Solo_2,A (solo),No,No,N/A (solo trial),,
+P02_A_NoMet_Solo_2,A (solo),No,No,N/A (solo trial),False,
 P02_A_Met_Solo_1,A (solo),Yes,No,N/A (solo trial),,
 P02_A_Met_Solo_2,A (solo),Yes,No,N/A (solo trial),,
 P02_A_NoMet_Observed_1,A (solo),No,Yes,N/A (solo trial),,
