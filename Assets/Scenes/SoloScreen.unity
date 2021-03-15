@@ -1553,7 +1553,7 @@ PrefabInstance:
     - target: {fileID: 224487761690423894, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00000011394403
+      value: 0.0000043213367
       objectReference: {fileID: 0}
     - target: {fileID: 224487761690423894, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -1563,7 +1563,7 @@ PrefabInstance:
     - target: {fileID: 224546371281550106, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0000010001662
+      value: 0.000006519258
       objectReference: {fileID: 0}
     - target: {fileID: 224546371281550106, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -1673,17 +1673,17 @@ PrefabInstance:
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[0].dropDownValues.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[1].dropDownValues.Array.size
-      value: 7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -1693,16 +1693,21 @@ PrefabInstance:
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[3].dropDownValues.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[4].dropDownValues.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[5].dropDownValues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[6].dropDownValues.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
@@ -1713,57 +1718,57 @@ PrefabInstance:
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[0].displayName
-      value: Display fast pendulum?
-      objectReference: {fileID: 0}
-    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
-        type: 3}
-      propertyPath: _participantDataPoints.Array.data[0].dataType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
-        type: 3}
-      propertyPath: _participantDataPoints.Array.data[0].dropDownValues.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
-        type: 3}
-      propertyPath: _participantDataPoints.Array.data[0].dropDownValues.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
-        type: 3}
-      propertyPath: _participantDataPoints.Array.data[0].dropDownValues.Array.data[2]
-      value: AB (joint)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
-        type: 3}
-      propertyPath: _participantDataPoints.Array.data[1].displayName
       value: Participant(s)
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
-      propertyPath: _participantDataPoints.Array.data[1].dataType
-      value: 0
+      propertyPath: _participantDataPoints.Array.data[0].dataType
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
-      propertyPath: _participantDataPoints.Array.data[1].dropDownValues.Array.data[0]
-      value: A (slow)
+      propertyPath: _participantDataPoints.Array.data[0].dropDownValues.Array.data[0]
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
-      propertyPath: _participantDataPoints.Array.data[1].dropDownValues.Array.data[1]
-      value: A (fast)
+      propertyPath: _participantDataPoints.Array.data[0].dropDownValues.Array.data[1]
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
-      propertyPath: _participantDataPoints.Array.data[2].displayName
+      propertyPath: _participantDataPoints.Array.data[0].dropDownValues.Array.data[2]
+      value: Both
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[1].displayName
       value: Metronome Present?
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
+      propertyPath: _participantDataPoints.Array.data[1].dataType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[1].dropDownValues.Array.data[0]
+      value: Yes
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[1].dropDownValues.Array.data[1]
+      value: No
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[2].displayName
+      value: Observed trial?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
       propertyPath: _participantDataPoints.Array.data[2].dataType
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -1783,82 +1788,82 @@ PrefabInstance:
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[1].dropDownValues.Array.data[2]
-      value: B (slow)
+      value: N/A
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[3].displayName
-      value: Observed trial?
+      value: Pendulum for A?
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[3].internalName
-      value: observed
+      value: pendulum_A
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[3].dataType
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[3].dropDownValues.Array.data[0]
-      value: Yes
+      value: Red
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[3].dropDownValues.Array.data[1]
-      value: No
+      value: Yellow
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[3].dropDownValues.Array.data[2]
-      value: N/A
+      value: Blue
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[0].internalName
-      value: pend_type
-      objectReference: {fileID: 0}
-    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
-        type: 3}
-      propertyPath: _participantDataPoints.Array.data[1].internalName
       value: ppt
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
-      propertyPath: _participantDataPoints.Array.data[2].internalName
+      propertyPath: _participantDataPoints.Array.data[1].internalName
       value: met
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
+      propertyPath: _participantDataPoints.Array.data[2].internalName
+      value: observed
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
       propertyPath: _participantDataPoints.Array.data[4].displayName
-      value: Detuned trial?
+      value: Pendulum for B?
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[4].internalName
-      value: detuned
+      value: pendulum_B
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[4].dropDownValues.Array.data[0]
-      value: Yes
+      value: Red
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[4].dropDownValues.Array.data[1]
-      value: No
+      value: Yellow
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[4].dropDownValues.Array.data[2]
-      value: N/A
+      value: Green
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[4].dataType
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -1883,26 +1888,101 @@ PrefabInstance:
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[5].displayName
-      value: Coordination type?
+      value: Metronome Speed?
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[5].internalName
-      value: coord
+      value: met_type
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[5].dropDownValues.Array.data[0]
-      value: IN
+      value: Fast
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[5].dropDownValues.Array.data[1]
-      value: ANTI
+      value: Slow
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: _participantDataPoints.Array.data[5].dropDownValues.Array.data[2]
+      value: N/A
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[5].dataType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[4].dropDownValues.Array.data[3]
+      value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[6].displayName
+      value: Coordination type?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[6].internalName
+      value: coord
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[6].dataType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[6].dropDownValues.Array.data[0]
+      value: In
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[6].dropDownValues.Array.data[1]
+      value: Anti
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[6].dropDownValues.Array.data[2]
+      value: N/A
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[6].dropDownValues.Array.data[3]
+      value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[6].dropDownValues.Array.data[4]
+      value: N/A
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[4].dropDownValues.Array.data[4]
+      value: N/A
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[5].dropDownValues.Array.data[3]
+      value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[5].dropDownValues.Array.data[4]
+      value: N/A
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[3].dropDownValues.Array.data[3]
+      value: Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[3].dropDownValues.Array.data[4]
       value: N/A
       objectReference: {fileID: 0}
     - target: {fileID: 114041974201563530, guid: 0a3b6392f04558844bd340e68ced1ff9,

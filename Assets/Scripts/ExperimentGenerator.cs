@@ -20,7 +20,9 @@ public class ExperimentGenerator : MonoBehaviour
     private GameObject wholePendulum;
     private float _angle = 60.0f;
     private float _startTime = 0.0f;
-    private bool pendType;
+    private string metType;
+
+    //private Dropdown pendType;
     private float bpm;
     private string ppid;
 
@@ -43,12 +45,29 @@ public class ExperimentGenerator : MonoBehaviour
         session = expSession; // save reference to session
         int numTrials = 1; //set number of trials
         Block mainBlock = session.CreateBlock(numTrials); // create main block
-        pendType = (bool)session.participantDetails["pend_type"]; //
+        metType = (string)session.participantDetails["met_type"]; //
+
+       // pendType = (Dropdown)session.participantDetails["pend_type"];
         ppid = (string)session.participantDetails["ppid"];
-        print(pendType);
+        print(metType);
         print(ppid);
-        bpm = (pendType) ? 150.0f : 50.0f; //sets bpm to 150 if pendType is T and 50 if pendType is F (pendType is taken from the tick box on the UI)
-       // print(bpm);
+        // bpm = pendType ? 150.0f : 50.0f; //sets bpm to 150 if pendType is T and 50 if pendType is F (pendType is taken from the tick box on the UI)
+        bpm = metType == "fast" ? 150.0f : 50.0f;
+        print(bpm);
+       /* if (pendType == "Yes")
+        {
+            bpm = 150.0f;
+            print(bpm);
+        }
+        else if(pendType == "No")
+        {
+            bpm = 50.0f;
+            print(bpm);
+        }  */
+       
+
+
+        // print(bpm);
         session.FirstTrial.Begin();
         Debug.Log("Running trial!");
     }
@@ -56,7 +75,7 @@ public class ExperimentGenerator : MonoBehaviour
      void setTrialLength(Trial trial) // can be called from OnTrialBegin in the Session inspector
     {
        // print(bpm);
-        Invoke("EndAndPrepare", 50);
+        Invoke("EndAndPrepare", 55);
     }
 
     //public IEnumerator IncreaseDelay()

@@ -1,2 +1,0 @@
-directory,experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_filename,knuckle_(0)_movement_filename,knuckle_(1)_movement_filename
-pendulums/P02_A_NoMet_Solo_1/S001,pendulums,P02_A_NoMet_Solo_1,1,1,1,1,108.3093,124.37,ball1_movement_T001.csv,knuckle_(0)_movement_T001.csv,knuckle_(1)_movement_T001.csv
