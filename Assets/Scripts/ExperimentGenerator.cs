@@ -52,7 +52,7 @@ public class ExperimentGenerator : MonoBehaviour
         print(metType);
         print(ppid);
         // bpm = pendType ? 150.0f : 50.0f; //sets bpm to 150 if pendType is T and 50 if pendType is F (pendType is taken from the tick box on the UI)
-        bpm = metType == "fast" ? 150.0f : 50.0f;
+        bpm = metType == "Fast" ? 150.0f : 50.0f;
         print(bpm);
        /* if (pendType == "Yes")
         {
