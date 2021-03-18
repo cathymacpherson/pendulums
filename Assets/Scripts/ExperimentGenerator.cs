@@ -99,7 +99,7 @@ public class ExperimentGenerator : MonoBehaviour
         transform.rotation = Quaternion.Lerp(_start, _end, (Mathf.Sin(_startTime * (bpm / 60) + Mathf.PI / 2) + 1.0f) / 2.0f);
 
         // reads out the position of the pendulum and trackers:
-     /*   Vector3 pendulumPosition = new Vector3(pendulum.transform.position.x, pendulum.transform.position.y, pendulum.transform.position.z);
+        Vector3 pendulumPosition = new Vector3(pendulum.transform.position.x, pendulum.transform.position.y, pendulum.transform.position.z);
         Vector3 participantPositionA = new Vector3(participantA.transform.position.x, participantA.transform.position.y, participantA.transform.position.z);
         Vector3 participantPositionB = new Vector3(participantB.transform.position.x, participantB.transform.position.y, participantB.transform.position.z);
         var line = string.Format("{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}",
@@ -113,7 +113,7 @@ public class ExperimentGenerator : MonoBehaviour
         {
             if (writer != null)
                 writer.Close();
-        } */
+        } 
     }
 
 
