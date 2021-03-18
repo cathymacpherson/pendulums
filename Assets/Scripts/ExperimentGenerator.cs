@@ -24,7 +24,7 @@ public class ExperimentGenerator : MonoBehaviour
 
     //private Dropdown pendType;
     private float bpm;
-    private string ppid;
+    private string ppt;
 
     public Session session; // generates the trials and blocks for the session
 
@@ -47,27 +47,14 @@ public class ExperimentGenerator : MonoBehaviour
         Block mainBlock = session.CreateBlock(numTrials); // create main block
         metType = (string)session.participantDetails["met_type"]; //
 
+        /// <param name="ppid"></param>
        // pendType = (Dropdown)session.participantDetails["pend_type"];
-        ppid = (string)session.participantDetails["ppid"];
+        ppt = (string)session.participantDetails["ppt"];
         print(metType);
-        print(ppid);
-        // bpm = pendType ? 150.0f : 50.0f; //sets bpm to 150 if pendType is T and 50 if pendType is F (pendType is taken from the tick box on the UI)
-        bpm = metType == "Fast" ? 150.0f : 50.0f;
+        print(ppt);
+        // bpm = pendType ? 150.0f : 50.0f; //sets bpm to 150 if pendType is T and 50 if pendType is F (pendType is taken from the UI)
+        bpm = metType == "Fast" ? 120.0f : 60.0f; //*Time.deltaTime? this is the time it took to complete the last frame, and is used for continuous movement - but this is already accounted for in the code below?
         print(bpm);
-       /* if (pendType == "Yes")
-        {
-            bpm = 150.0f;
-            print(bpm);
-        }
-        else if(pendType == "No")
-        {
-            bpm = 50.0f;
-            print(bpm);
-        }  */
-       
-
-
-        // print(bpm);
         session.FirstTrial.Begin();
         Debug.Log("Running trial!");
     }
@@ -95,7 +82,7 @@ public class ExperimentGenerator : MonoBehaviour
         transform.rotation = Quaternion.Lerp(_start, _end, (Mathf.Sin(_startTime * (bpm / 60) + Mathf.PI / 2) + 1.0f) / 2.0f);
 
         // reads out the position of the pendulum and trackers:
-        Vector3 pendulumPosition = new Vector3(pendulum.transform.position.x, pendulum.transform.position.y, pendulum.transform.position.z);
+     /*   Vector3 pendulumPosition = new Vector3(pendulum.transform.position.x, pendulum.transform.position.y, pendulum.transform.position.z);
         Vector3 participantPositionA = new Vector3(participantA.transform.position.x, participantA.transform.position.y, participantA.transform.position.z);
         Vector3 participantPositionB = new Vector3(participantB.transform.position.x, participantB.transform.position.y, participantB.transform.position.z);
         var line = string.Format("{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}",
@@ -103,13 +90,13 @@ public class ExperimentGenerator : MonoBehaviour
                                 pendulumPosition[0], pendulumPosition[1], pendulumPosition[2],
                                 participantPositionA[0], participantPositionA[1], participantPositionA[2],
                                 participantPositionB[0], participantPositionB[1], participantPositionB[2]);
-        var fileName = ppid + ".txt";
+        var fileName = ppt + ".txt";
         StreamWriter writer = new StreamWriter(fileName, true);
         writer.WriteLine(line);
         {
             if (writer != null)
                 writer.Close();
-        }
+        } */
     }
 
 
