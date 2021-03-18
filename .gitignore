@@ -65,3 +65,4 @@ crashlytics-build.properties
 #But not source fle with postfix.
 !*.*.meta
 
+Temp/UnityLockfile
