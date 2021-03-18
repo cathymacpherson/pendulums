@@ -1,2 +1,0 @@
-experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
-my_experiment,ashes-9d360bf4-1bc9-4800-b24f-c7811c7cfd0d,1,1,1,1,4.943645,14.05838,my_experiment/ashes-9d360bf4-1bc9-4800-b24f-c7811c7cfd0d/S001/trackers/ball1_movement_T001.csv,my_experiment/ashes-9d360bf4-1bc9-4800-b24f-c7811c7cfd0d/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/ashes-9d360bf4-1bc9-4800-b24f-c7811c7cfd0d/S001/trackers/knuckle_(1)_movement_T001.csv
