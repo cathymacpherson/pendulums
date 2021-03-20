@@ -1,2 +1,0 @@
-directory,experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_filename,knuckle_(0)_movement_filename,knuckle_(1)_movement_filename
-pendulums/P_210318092542/S001,pendulums,P_210318092542,1,1,1,1,27.26513,29.47935,ball1_movement_T001.csv,knuckle_(0)_movement_T001.csv,knuckle_(1)_movement_T001.csv

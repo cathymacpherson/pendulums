@@ -18,7 +18,7 @@ public class ExperimentGenerator : MonoBehaviour
     private GameObject participantA;
     private GameObject participantB;
     private GameObject wholePendulum;
-    private float _angle = 60.0f;
+    private float _angle = 40.0f;
     private float _startTime = 0.0f;
     private string metType;
 
@@ -57,11 +57,11 @@ public class ExperimentGenerator : MonoBehaviour
         
         if(metType == "Fast")
         {
-            bpm = 120.0f; //*Time.deltaTime? this is the time it took to complete the last frame, and is used for continuous movement - but this is already accounted for in the code below?
+            bpm = 328.0f; //*Time.deltaTime? this is the time it took to complete the last frame, and is used for continuous movement - but this is already accounted for in the code below?
         }
         else if(metType == "Slow")
         {
-            bpm = 60.0f;
+            bpm = 290.0f;
         }
         else if(metType == "N/A")
         {
@@ -108,12 +108,12 @@ public class ExperimentGenerator : MonoBehaviour
                                 participantPositionA[0], participantPositionA[1], participantPositionA[2],
                                 participantPositionB[0], participantPositionB[1], participantPositionB[2]);
         var fileName = ppt + ".txt";
-        StreamWriter writer = new StreamWriter(fileName, true);
-        writer.WriteLine(line);
-        {
-            if (writer != null)
-                writer.Close();
-        } 
+       // StreamWriter writer = new StreamWriter(fileName, true);
+       // writer.WriteLine(line);
+       // {
+       //     if (writer != null)
+       //         writer.Close();
+       // } 
     }
 
 
