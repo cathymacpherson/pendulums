@@ -11532,7 +11532,7 @@ PrefabInstance:
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.size
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -11542,12 +11542,12 @@ PrefabInstance:
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[1].dropDownOptions.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[2].dropDownOptions.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -11572,12 +11572,12 @@ PrefabInstance:
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[0].displayName
-      value: Metronome Speed?
+      value: Participant(s)
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[0].internalName
-      value: met_type
+      value: ppt
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -11587,67 +11587,67 @@ PrefabInstance:
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[0].dropDownOptions.Array.data[0]
-      value: S
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[0].dropDownOptions.Array.data[1]
-      value: F
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[0].dropDownOptions.Array.data[2]
-      value: N/A
+      value: Both
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[1].displayName
-      value: Metronome Speed?
+      value: Pendulum for A?
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[2].displayName
-      value: Metronome Speed?
+      value: Pendulum for B?
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[1].internalName
-      value: met_type
+      value: pend_a
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[2].internalName
-      value: met_type
+      value: pend_b
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[3].displayName
-      value: Metronome Speed?
+      value: Metronome Present?
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[3].internalName
-      value: met_type
+      value: met_present
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[4].displayName
-      value: Metronome Speed?
+      value: Observed trial?
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[4].internalName
-      value: met_type
+      value: observed
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[5].displayName
-      value: Metronome Speed?
+      value: Coordination type?
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[5].internalName
-      value: met_type
+      value: coord_type
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -11667,17 +11667,17 @@ PrefabInstance:
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[1].dropDownOptions.Array.data[0]
-      value: S
+      value: Red
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[1].dropDownOptions.Array.data[1]
-      value: F
+      value: Yellow
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[1].dropDownOptions.Array.data[2]
-      value: N/A
+      value: Blue
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -11692,17 +11692,17 @@ PrefabInstance:
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[2].dropDownOptions.Array.data[0]
-      value: S
+      value: Red
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[2].dropDownOptions.Array.data[1]
-      value: F
+      value: Yellow
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[2].dropDownOptions.Array.data[2]
-      value: N/A
+      value: Blue
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -11717,12 +11717,12 @@ PrefabInstance:
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[3].dropDownOptions.Array.data[0]
-      value: S
+      value: Yes
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[3].dropDownOptions.Array.data[1]
-      value: F
+      value: No
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -11732,12 +11732,12 @@ PrefabInstance:
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[4].dropDownOptions.Array.data[0]
-      value: S
+      value: Yes
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[4].dropDownOptions.Array.data[1]
-      value: F
+      value: No
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -11757,12 +11757,12 @@ PrefabInstance:
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[5].dropDownOptions.Array.data[0]
-      value: S
+      value: In
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: participantDataPoints.Array.data[5].dropDownOptions.Array.data[1]
-      value: F
+      value: Anti
       objectReference: {fileID: 0}
     - target: {fileID: 653059108743847710, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}

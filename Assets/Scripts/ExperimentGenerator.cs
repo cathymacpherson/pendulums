@@ -49,19 +49,19 @@ public class ExperimentGenerator : MonoBehaviour
 
         /// <param name="ppid"></param>
        // pendType = (Dropdown)session.participantDetails["pend_type"];
-        ppt = (string)session.participantDetails["ppt"];
+        //ppt = (string)session.participantDetails["ppt"];
         print(metType);
-        print(ppt);
+        //print(ppt);
         // bpm = pendType ? 150.0f : 50.0f; //sets bpm to 150 if pendType is T and 50 if pendType is F (pendType is taken from the UI)
         //bpm = metType == "Fast" ? 120.0f : 60.0f; 
         
         if(metType == "F")
         {
-            bpm = 328.0f; //*Time.deltaTime? this is the time it took to complete the last frame, and is used for continuous movement - but this is already accounted for in the code below?
+            bpm = 319.0f; //*Time.deltaTime? this is the time it took to complete the last frame, and is used for continuous movement - but this is already accounted for in the code below?
         }
         else if(metType == "S")
         {
-            bpm = 290.0f;
+            bpm = 279.0f;
         }
         else if(metType == "N/A")
         {
@@ -107,7 +107,7 @@ public class ExperimentGenerator : MonoBehaviour
                                 pendulumPosition[0], pendulumPosition[1], pendulumPosition[2],
                                 participantPositionA[0], participantPositionA[1], participantPositionA[2],
                                 participantPositionB[0], participantPositionB[1], participantPositionB[2]);
-        var fileName = ppt + ".txt";
+       // var fileName = ppt + ".txt";
        // StreamWriter writer = new StreamWriter(fileName, true);
        // writer.WriteLine(line);
        // {
