@@ -57,11 +57,11 @@ public class ExperimentGenerator : MonoBehaviour
         
         if(metType == "F")
         {
-            bpm = 336.398f; //*Time.deltaTime? this is the time it took to complete the last frame, and is used for continuous movement - but this is already accounted for in the code below?
+            bpm = 347.2495f; //*Time.deltaTime? this is the time it took to complete the last frame, and is used for continuous movement - but this is already accounted for in the code below?
         }
         else if(metType == "S")
         {
-            bpm = 301.517f;
+            bpm = 289.920f;
         }
         else if(metType == "N/A")
         {
