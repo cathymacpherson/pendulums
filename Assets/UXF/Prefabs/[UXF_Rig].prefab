@@ -8746,22 +8746,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224976169596214448, guid: 9e81924d28cd0d849a13e5abce816d3a,
+    - target: {fileID: 1392091059206779690, guid: 9e81924d28cd0d849a13e5abce816d3a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224976169596214448, guid: 9e81924d28cd0d849a13e5abce816d3a,
+    - target: {fileID: 1392091059206779690, guid: 9e81924d28cd0d849a13e5abce816d3a,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1392091059206779690, guid: 9e81924d28cd0d849a13e5abce816d3a,
+    - target: {fileID: 224976169596214448, guid: 9e81924d28cd0d849a13e5abce816d3a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1392091059206779690, guid: 9e81924d28cd0d849a13e5abce816d3a,
+    - target: {fileID: 224976169596214448, guid: 9e81924d28cd0d849a13e5abce816d3a,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -9131,15 +9131,15 @@ PrefabInstance:
       propertyPath: m_Text
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114812937645559530, guid: 15c278d5156bae1489e9a38ad279bee2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114871084140008742, guid: 15c278d5156bae1489e9a38ad279bee2,
         type: 3}
       propertyPath: m_Text
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114812937645559530, guid: 15c278d5156bae1489e9a38ad279bee2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15c278d5156bae1489e9a38ad279bee2, type: 3}
