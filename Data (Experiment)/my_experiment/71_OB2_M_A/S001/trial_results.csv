@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,71_OB2_M_A,1,1,1,1,27.94885,82.94866,my_experiment/71_OB2_M_A/S001/trackers/ball1_movement_T001.csv,my_experiment/71_OB2_M_A/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/71_OB2_M_A/S001/trackers/knuckle_(1)_movement_T001.csv

@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,heat-625659e8-f86c-4c0c-963c-44aba1cac6a3,1,1,1,1,6.604497,36.73783,my_experiment/heat-625659e8-f86c-4c0c-963c-44aba1cac6a3/S001/trackers/ball1_movement_T001.csv,my_experiment/heat-625659e8-f86c-4c0c-963c-44aba1cac6a3/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/heat-625659e8-f86c-4c0c-963c-44aba1cac6a3/S001/trackers/knuckle_(1)_movement_T001.csv

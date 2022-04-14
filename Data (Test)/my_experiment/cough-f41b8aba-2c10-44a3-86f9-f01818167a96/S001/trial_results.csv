@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,cough-f41b8aba-2c10-44a3-86f9-f01818167a96,1,1,1,1,10.98743,39.78742,my_experiment/cough-f41b8aba-2c10-44a3-86f9-f01818167a96/S001/trackers/ball1_movement_T001.csv,my_experiment/cough-f41b8aba-2c10-44a3-86f9-f01818167a96/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/cough-f41b8aba-2c10-44a3-86f9-f01818167a96/S001/trackers/knuckle_(1)_movement_T001.csv

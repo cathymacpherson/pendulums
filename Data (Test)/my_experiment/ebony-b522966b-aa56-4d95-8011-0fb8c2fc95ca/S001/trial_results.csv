@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,ebony-b522966b-aa56-4d95-8011-0fb8c2fc95ca,1,1,1,1,84.70007,139.7163,my_experiment/ebony-b522966b-aa56-4d95-8011-0fb8c2fc95ca/S001/trackers/ball1_movement_T001.csv,my_experiment/ebony-b522966b-aa56-4d95-8011-0fb8c2fc95ca/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/ebony-b522966b-aa56-4d95-8011-0fb8c2fc95ca/S001/trackers/knuckle_(1)_movement_T001.csv

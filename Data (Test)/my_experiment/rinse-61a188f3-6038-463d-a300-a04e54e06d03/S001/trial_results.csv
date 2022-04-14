@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,rinse-61a188f3-6038-463d-a300-a04e54e06d03,1,1,1,1,64.52798,100.1945,my_experiment/rinse-61a188f3-6038-463d-a300-a04e54e06d03/S001/trackers/ball1_movement_T001.csv,my_experiment/rinse-61a188f3-6038-463d-a300-a04e54e06d03/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/rinse-61a188f3-6038-463d-a300-a04e54e06d03/S001/trackers/knuckle_(1)_movement_T001.csv

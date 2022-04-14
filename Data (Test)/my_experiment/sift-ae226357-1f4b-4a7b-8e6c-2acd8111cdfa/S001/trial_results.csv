@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,sift-ae226357-1f4b-4a7b-8e6c-2acd8111cdfa,1,1,1,1,159.0051,214.0045,my_experiment/sift-ae226357-1f4b-4a7b-8e6c-2acd8111cdfa/S001/trackers/ball1_movement_T001.csv,my_experiment/sift-ae226357-1f4b-4a7b-8e6c-2acd8111cdfa/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/sift-ae226357-1f4b-4a7b-8e6c-2acd8111cdfa/S001/trackers/knuckle_(1)_movement_T001.csv

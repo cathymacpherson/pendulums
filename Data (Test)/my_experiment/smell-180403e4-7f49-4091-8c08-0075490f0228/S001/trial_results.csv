@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,smell-180403e4-7f49-4091-8c08-0075490f0228,1,1,1,1,9.492911,64.4922,my_experiment/smell-180403e4-7f49-4091-8c08-0075490f0228/S001/trackers/ball1_movement_T001.csv,my_experiment/smell-180403e4-7f49-4091-8c08-0075490f0228/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/smell-180403e4-7f49-4091-8c08-0075490f0228/S001/trackers/knuckle_(1)_movement_T001.csv

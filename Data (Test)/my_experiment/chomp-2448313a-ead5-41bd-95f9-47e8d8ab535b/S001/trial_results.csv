@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,chomp-2448313a-ead5-41bd-95f9-47e8d8ab535b,1,1,1,1,7.634099,41.50119,my_experiment/chomp-2448313a-ead5-41bd-95f9-47e8d8ab535b/S001/trackers/ball1_movement_T001.csv,my_experiment/chomp-2448313a-ead5-41bd-95f9-47e8d8ab535b/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/chomp-2448313a-ead5-41bd-95f9-47e8d8ab535b/S001/trackers/knuckle_(1)_movement_T001.csv

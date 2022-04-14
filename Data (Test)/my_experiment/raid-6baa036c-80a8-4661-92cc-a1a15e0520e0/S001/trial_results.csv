@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,raid-6baa036c-80a8-4661-92cc-a1a15e0520e0,1,1,1,1,3.079057,25.24625,my_experiment/raid-6baa036c-80a8-4661-92cc-a1a15e0520e0/S001/trackers/ball1_movement_T001.csv,my_experiment/raid-6baa036c-80a8-4661-92cc-a1a15e0520e0/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/raid-6baa036c-80a8-4661-92cc-a1a15e0520e0/S001/trackers/knuckle_(1)_movement_T001.csv

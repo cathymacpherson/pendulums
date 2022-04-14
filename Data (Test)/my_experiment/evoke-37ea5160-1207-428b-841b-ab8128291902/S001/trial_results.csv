@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,ball1_movement_location_0,knuckle_(0)_movement_location_0,knuckle_(1)_movement_location_0
+my_experiment,evoke-37ea5160-1207-428b-841b-ab8128291902,1,1,1,1,16.03641,71.03587,my_experiment/evoke-37ea5160-1207-428b-841b-ab8128291902/S001/trackers/ball1_movement_T001.csv,my_experiment/evoke-37ea5160-1207-428b-841b-ab8128291902/S001/trackers/knuckle_(0)_movement_T001.csv,my_experiment/evoke-37ea5160-1207-428b-841b-ab8128291902/S001/trackers/knuckle_(1)_movement_T001.csv
